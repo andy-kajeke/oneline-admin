@@ -1,7 +1,7 @@
 <div class="container" style="width: 400px;">
 
     <!-- Include Flash Data File -->
-    <?php $this->load->view('_FlashAlert\flash_alert.php') ?>
+   <!-- <?php $this->load->view('_FlashAlert\flash_alert.php') ?> -->
     
     <?= form_open() ?>
         <div style="height: 50px; background-color: #C0C0C0; margin-top: 50px; text-align: center;">
