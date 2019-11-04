@@ -6,7 +6,7 @@ class Welcome extends CI_Controller {
 	{
 		$data['page_title'] = "Home Page";
 		$this->load->view('_Layout/home/header.php', $data); // Header File
-		$this->load->view('user/register'); // Main File (Body)
+		$this->load->view('user/login'); // Main File (Body)
 		$this->load->view('_Layout/home/footer.php'); // Footer File
 	}
 }
